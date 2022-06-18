@@ -19,7 +19,7 @@ Preparation
 -----
 The datasets can be downloaded from their official sites. We also provide them here:
 
-Baidu Disk: <a href="https://pan.baidu.com/s/16tpuXNGwm5ssJagP_yHAtw">download</a>  (code: zr4s)   
+Baidu Disk: <a href="https://pan.baidu.com/s/1yOGMBZOzlZ5UJ2EGh9y8CQ">download</a>  (code: zr4s)   
 
 Note that they are saved as 'png', which are extracted from their original datasets without any further preprocessing. 
 
