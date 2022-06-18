@@ -31,3 +31,35 @@ Plus, please prepare the training and the testing text files. Each file has the 
 ...
 ```
 We provide two example files, i.e., 'train_AtriaSeg.txt' and 'test_AtriaSeg.txt'
+
+
+Training
+-----
+After the preperation, you can start to train your model. We provide an example file "train_AtriaSeg_16.sh", please run with:
+
+```
+sh train_AtriaSeg_16.sh
+```
+After the training, the latest model will be saved, which is used for testing.
+
+Testing
+-----
+
+We provide an example file "test_AtriaSeg_16.sh", please run with:
+
+```
+sh test_AtriaSeg_16.sh
+```
+
+Citation
+-----------------
+
+  ```
+  @inproceedings{wang2022rethinking,
+  title={Rethinking Bayesian Deep Learning Methods for Semi-Supervised Volumetric Medical Image Segmentation},
+  author={Wang, Jianfeng and Lukasiewicz, Thomas},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={182--190},
+  year={2022}
+}
+  ```
