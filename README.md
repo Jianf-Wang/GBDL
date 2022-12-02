@@ -21,6 +21,8 @@ The datasets can be downloaded from their official sites. We also provide them h
 
 Baidu Disk: <a href="https://pan.baidu.com/s/1yOGMBZOzlZ5UJ2EGh9y8CQ">download</a>  (code: zr4s)   
 
+Google Drive: <a href="https://drive.google.com/drive/folders/1JprKNLCGQtaCXuVziNHz7HyOMbqzsXrM?usp=sharing">download</a>  
+
 Note that they are saved as 'png', which are extracted from their original datasets without any further preprocessing. 
 
 Plus, please prepare the training and the testing text files. Each file has the following format:
