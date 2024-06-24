@@ -175,8 +175,13 @@ def train(config, train_loader, model, model_seg, criterion, optimizer, epoch):
 
         if epoch > int(config['epochs']/2):
            with torch.no_grad():
-                  output, _, _, _, _ = model(input_, M = config['M'])
+                  output, _, _, x_ori_1, _ = model(input_, M = config['M'])
 
+           '''
+           if epoch % 10 == 0:
+              input_ = x_ori_1
+           '''
+         
            out_seg = model_seg(input_)
 
            if config['M'] > 1:
